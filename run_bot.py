@@ -46,8 +46,8 @@ while True:
                              'photo-30026037_456275881')
         elif 'мем' in update[0][6]:
             write_msg_attach(user_id,
-                             'вот тебе твой мем',)
-
+                             'вот тебе твой мем',
+                             'photo-30026037_456275881')
         else:
          write_msg(user_id, 'привет,' + (user_name[0]['first_name']))  # сообщение пользователю
          write_msg(user_id, 'Есть разные команды')
